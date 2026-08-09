@@ -1,0 +1,90 @@
+<nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+    <div class="sb-sidenav-menu">
+        <div class="nav">
+            <div class="sb-sidenav-menu-heading">Inicio</div>
+            <a routerLink="/index" class="nav-link">
+                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                Dashboard
+            </a>
+
+            <!-- SECCIÓN: USUARIOS -->
+            <div class="sb-sidenav-menu-heading">Administración</div>
+            <!-- Se cambió data-bs-target y aria-controls a #collapseUsuarios -->
+            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseUsuarios"
+                aria-expanded="false" aria-controls="collapseUsuarios">
+                <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+                Usuarios
+                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+            </a>
+            <!-- Se cambió el id a collapseUsuarios -->
+            <div class="collapse" id="collapseUsuarios" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                <nav class="sb-sidenav-menu-nested nav">
+                    <a routerLink="/admin_usuarios" class="nav-link">Administrar</a>
+                </nav>
+            </div>
+
+            <!-- SECCIÓN: PRODUCTOS -->
+            <div class="sb-sidenav-menu-heading">Inventario</div>
+            <!-- Se cambió data-bs-target y aria-controls a #collapseProductos -->
+            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProductos"
+                aria-expanded="false" aria-controls="collapseProductos">
+                <div class="sb-nav-link-icon"><i class="fas fa-box"></i></div>
+                Productos
+                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+            </a>
+            <!-- Se cambió el id a collapseProductos -->
+            <div class="collapse" id="collapseProductos" aria-labelledby="headingOne"
+                data-bs-parent="#sidenavAccordion">
+                <nav class="sb-sidenav-menu-nested nav">
+                    <a routerLink="/admin_productos" class="nav-link">Administrar</a>
+                </nav>
+            </div>
+
+            <!-- SECCIÓN: MOVIMIENTOS -->
+            <!-- Se cambió data-bs-target y aria-controls a #collapseMovimientos -->
+            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseMovimientos"
+                aria-expanded="false" aria-controls="collapseMovimientos">
+                <div class="sb-nav-link-icon"><i class="fas fa-exchange-alt"></i></div>
+                Movimientos
+                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+            </a>
+            <!-- Se cambió el id a collapseMovimientos -->
+            <div class="collapse" id="collapseMovimientos" aria-labelledby="headingOne"
+                data-bs-parent="#sidenavAccordion">
+                <nav class="sb-sidenav-menu-nested nav">
+                    <a routerLink="/admin_movimientos" class="nav-link">Administrar</a>
+                </nav>
+            </div>
+
+            <!-- SECCIÓN: MOVIMIENTOS -->
+            <!-- Se cambió data-bs-target y aria-controls a #collapseInventarios -->
+            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseInventarios"
+                aria-expanded="false" aria-controls="collapseInventarios">
+                <div class="sb-nav-link-icon"><i class="fa-regular fa-rectangle-list"></i></div>
+                Inventario
+                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+            </a>
+            <!-- Se cambió el id a collapseInventarios -->
+            <div class="collapse" id="collapseInventarios" aria-labelledby="headingOne"
+                data-bs-parent="#sidenavAccordion">
+                <nav class="sb-sidenav-menu-nested nav">
+                    <a routerLink="/admin_movimientos" class="nav-link">Administrar</a>
+                </nav>
+            </div>
+
+            <div class="sb-sidenav-menu-heading">Reportes</div>
+            <a class="nav-link" href="charts.html">
+                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                Charts
+            </a>
+            <a class="nav-link" href="tables.html">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Tables
+            </a>
+        </div>
+    </div>
+    <div class="sb-sidenav-footer">
+        <div class="small">Logged in as:</div>
+        Start Bootstrap
+    </div>
+</nav>

@@ -2,7 +2,7 @@
     <div class="sb-sidenav-menu">
         <div class="nav">
             <div class="sb-sidenav-menu-heading">Inicio</div>
-            <a routerLink="/index" class="nav-link">
+            <a routerLink="/dashboard" class="nav-link">
                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                 Dashboard
             </a>
@@ -19,7 +19,7 @@
             <!-- Se cambió el id a collapseUsuarios -->
             <div class="collapse" id="collapseUsuarios" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                 <nav class="sb-sidenav-menu-nested nav">
-                    <a routerLink="/admin_usuarios" class="nav-link">Administrar</a>
+                    <a routerLink="/usuarios" class="nav-link">Administrar</a>
                 </nav>
             </div>
 
@@ -36,7 +36,7 @@
             <div class="collapse" id="collapseProductos" aria-labelledby="headingOne"
                 data-bs-parent="#sidenavAccordion">
                 <nav class="sb-sidenav-menu-nested nav">
-                    <a routerLink="/admin_productos" class="nav-link">Administrar</a>
+                    <a routerLink="/productos" class="nav-link">Administrar</a>
                 </nav>
             </div>
 
@@ -52,11 +52,11 @@
             <div class="collapse" id="collapseMovimientos" aria-labelledby="headingOne"
                 data-bs-parent="#sidenavAccordion">
                 <nav class="sb-sidenav-menu-nested nav">
-                    <a routerLink="/admin_movimientos" class="nav-link">Administrar</a>
+                    <a routerLink="/movimientos" class="nav-link">Administrar</a>
                 </nav>
             </div>
 
-            <!-- SECCIÓN: MOVIMIENTOS -->
+            <!-- SECCIÓN: INVENTARIOS -->
             <!-- Se cambió data-bs-target y aria-controls a #collapseInventarios -->
             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseInventarios"
                 aria-expanded="false" aria-controls="collapseInventarios">
@@ -68,7 +68,7 @@
             <div class="collapse" id="collapseInventarios" aria-labelledby="headingOne"
                 data-bs-parent="#sidenavAccordion">
                 <nav class="sb-sidenav-menu-nested nav">
-                    <a routerLink="/admin_movimientos" class="nav-link">Administrar</a>
+                    <a routerLink="/inventarios" class="nav-link">Administrar</a>
                 </nav>
             </div>
 

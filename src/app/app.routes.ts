@@ -3,6 +3,7 @@ import { Dashboard } from './pages/dashboard/dashboard';
 import { Productos } from './pages/productos/productos';
 import { Usuarios } from './pages/usuarios/usuarios';
 import { Movimientos } from './pages/movimientos/movimientos';
+import { Inventarios } from './pages/inventarios/inventarios';
 
 export const app_routes: Routes = [
     { path: '', component: Dashboard },
@@ -10,5 +11,6 @@ export const app_routes: Routes = [
     { path: 'productos', component: Productos },
     { path: 'usuarios', component: Usuarios },
     { path: 'movimientos', component: Movimientos },
-    { path: '**', redirectTo: '' }
+    { path: 'inventarios', component: Inventarios },
+    { path: '**', redirectTo: 'dashboard' }
 ];

@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { Dashboard } from './pages/dashboard/dashboard';
-import { Productos } from './pages/productos/productos';
-import { Usuarios } from './pages/usuarios/usuarios';
-import { Movimientos } from './pages/movimientos/movimientos';
-import { Inventarios } from './pages/inventarios/inventarios';
+import { Dashboard } from './features/dashboard/dashboard';
+import { Productos } from './features/productos/productos';
+import { Usuarios } from './features/usuarios/usuarios';
+import { Movimientos } from './features/movimientos/movimientos';
+import { Inventarios } from './features/inventarios/inventarios';
 
 export const app_routes: Routes = [
     { path: '', component: Dashboard },

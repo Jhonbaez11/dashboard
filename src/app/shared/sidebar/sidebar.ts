@@ -5,7 +5,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-slidebar',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './slidebar.html',
-  styleUrl: './slidebar.css',
+  templateUrl: './sidebar.html',
+  styleUrl: './sidebar.css',
 })
-export class Slidebar { }
+export class Sidebar { }

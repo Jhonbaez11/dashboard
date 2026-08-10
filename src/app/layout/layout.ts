@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { Topbar } from '../shared/topbar/topbar';
-import { Slidebar } from '../shared/slidebar/slidebar';
+import { Sidebar } from '../shared/sidebar/sidebar';
 import { Footer } from '../shared/footer/footer';
 import { RouterOutlet } from "@angular/router";
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [Topbar, Slidebar, Footer, RouterOutlet],
+  imports: [Topbar, Sidebar, Footer, RouterOutlet],
   templateUrl: './layout.html',
   styleUrl: './layout.css',
 })

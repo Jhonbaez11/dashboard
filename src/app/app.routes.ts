@@ -6,9 +6,9 @@ import { Movimientos } from './pages/movimientos/movimientos';
 
 export const app_routes: Routes = [
     { path: '', component: Dashboard },
-    { path: 'index', component: Dashboard },
-    { path: 'admin_productos', component: Productos },
-    { path: 'admin_usuarios', component: Usuarios },
-    { path: 'admin_movimientos', component: Movimientos },
+    { path: 'dashboard', component: Dashboard },
+    { path: 'productos', component: Productos },
+    { path: 'usuarios', component: Usuarios },
+    { path: 'movimientos', component: Movimientos },
     { path: '**', redirectTo: '' }
 ];
